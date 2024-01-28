@@ -29,6 +29,7 @@ const Header = () => {
             <NavLink to="/Admin">Admin</NavLink>
             
               <NavLink to="/properties">Properties</NavLink>
+              
 
               <a href="mailto:jerinjoseph703@gmail.com">Contact</a>
 

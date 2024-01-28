@@ -13,6 +13,8 @@ import { ReactQueryDevtools } from "react-query/devtools"
 import "react-toastify/dist/ReactToastify.css"
 import Properties from './pages/Properties/Properties.jsx';
 import Property from './pages/Property/Property.jsx';
+import UserForms from './components/Admin/signup/signup.jsx';
+import Adminscreen from './components/Admin/Screen/Panel.jsx';
 function App() {
 
   const queryClient = new QueryClient()
@@ -30,6 +32,8 @@ function App() {
             </Route>
             <Route path='/Login' element={<Login />} />
             <Route path='/Admin' element={<UserForm/>} />
+            <Route path='/trial'  element={<UserForms/>}/>
+            <Route path='/panel'  element={<Adminscreen/>}/>
          
       </Route>
     </Routes>
